@@ -3,7 +3,11 @@
   "displayName": "go handy",
   "description": "",
   "version": "0.0.1",
-  "publisher": "gopher",
+  "publisher": "q9090960bnb3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gofulljs/go-handy.git"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -15,6 +19,7 @@
   ],
   "main": "./out/extension.js",
   "contributes": {},
+  "icon": "favicon.ico",
   "scripts": {
     "vscode:prepublish": "pnpm run compile",
     "compile": "tsc -p ./",
